@@ -1,0 +1,4 @@
+com/kainos/training/blackbox/service/model/Person.class
+com/kainos/training/blackbox/service/PersonApplication.class
+com/kainos/training/blackbox/service/resource/PersonResource.class
+com/kainos/training/blackbox/service/configuration/PersonConfiguration.class
