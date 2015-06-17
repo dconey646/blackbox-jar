@@ -12,12 +12,12 @@ Should return a list of people. Example response:
 ]
 
 #Add a person to the list
-\nPOST request
-\n/person
-\nWill add a person to the list of people in the service. Example of the data to send:
-\n{
-\n  "name":"Ben"
-\n}
+POST request
+/person
+Will add a person to the list of people in the service. Example of the data to send:
+{
+  "name":"Ben"
+}
 
 #Delete a person from the list
 DELETE request
