@@ -7,6 +7,7 @@ GET Request <br/>
 Should return a list of people. Example response:<br/>
 [
   {
+    "id":1
     "name":"Ben"
     }
 ]
@@ -21,8 +22,8 @@ Will add a person to the list of people in the service. Example of the data to s
 
 #Delete a person from the list
 DELETE request <br/>
-/person/{index} <br/>
-Will delete the person in the corresponding index. Example request: <br/>
-/person/0
+/person/{id} <br/>
+Will delete the person in the corresponding id. Example request: <br/>
+/person/1
 
 Please report any issues to the support team!
